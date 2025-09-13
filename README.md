@@ -1,6 +1,6 @@
-# 🌐 TP Azure avec Terraform — Compte-rendu & Proofs
+# TP Azure avec Terraform — Compte-rendu & Proofs
 
-##  TP1 — VM, SSH & NSG
+## TP1 — VM, SSH & NSG
 
 ### 1. Génération de la paire de clés SSH
 
@@ -120,18 +120,6 @@ cat /tmp/hello-down.txt
 - AzCopy login réussi
 - Listing du fichier dans le container
 - Contenu du fichier affiché
-
----
-
-### 3. Authentification manuelle (IMDS)
-
-```bash
-curl -s -H "Metadata:true"   "http://169.254.169.254/metadata/identity/oauth2/token?api-version=2018-02-01&resource=https://storage.azure.com/" | jq .
-```
-
-**Preuves attendues :**
-
-- JSON contenant un `access_token`
 
 ---
 
