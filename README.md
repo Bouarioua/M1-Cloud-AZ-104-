@@ -186,3 +186,19 @@ stress-ng --vm 2 --vm-bytes 512M --timeout 600s
 - Sortie `terraform apply` OK
 
 ---
+
+### Appendix: Preuves d'outputs
+
+![Connexion à la VM par IP](./screenshots/1.png)
+![une super description de ton image si tu veux](./screenshots/2.png)
+![Listing avec la commande az network pour les NSG et vérifier le port 22](./screenshots/3.png)
+![Vérifier la création du FQDN](./screenshots/4.png)
+![Connexion à la VM par FQDN](./screenshots/5.png)
+![une super description de ton image si tu veux](./screenshots/6.png)
+![Listing des storages](./screenshots/7.png)
+![Listing des storages](./screenshots/8.png)
+![Test de azcopy](./screenshots/9.png)
+![Monitoring des CPU, GPU](./screenshots/10.png)
+![Alerte du monitoring](./screenshots/11.png)
+![Preuve que le monitoring fonctionne bien](./screenshots/12.png)
+![une super description de ton image si tu veux](./screenshots/13.png)
